@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRzrdgmPri9reSVFaBZVK8-UROmerpI2Tj6g&usqp=CAU",
+    "jobTitle": "Software Engineer",
+    "companyName": "Google LLC.",
+    "remoteOrOnsite": "Remote",
+    "location": "New York, NY",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$100,000 - $120,000 per year",
+    "jobDescription": "We're looking for a talented software engineer to join our team and help us build amazing products.",
+    "jobResponsibility": "Develop and maintain high-quality software using modern technologies and best practices.",
+    "educationalRequirements": "Bachelor's degree in Computer Science or a related field.",
+    "experiences": "3+ years of experience in software engineering.",
+    "contactInformation": {
+      "phone": "555-1234",
+      "email": "jobs@example.com"
+    }
+  },
+  {
+    "id": 2,
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png",
+    "jobTitle": "Marketing Manager",
+    "companyName": "Netflix",
+    "remoteOrOnsite": "Onsite",
+    "location": "Los Angeles, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$80,000 - $100,000 per year",
+    "jobDescription": "We're seeking a talented marketing manager to lead our team and drive growth for our products and services.",
+    "jobResponsibility": "Develop and execute marketing campaigns across multiple channels, and analyze their effectiveness.",
+    "educationalRequirements": "Bachelor's degree in Marketing or a related field.",
+    "experiences": "5+ years of experience in marketing, with a proven track record of success.",
+    "contactInformation": {
+      "phone": "555-5678",
+      "email": "jobs@acme.com"
+    }
+  },
+  {
+    "id": 3,
+    "companyLogo": "https://www.freepnglogos.com/uploads/tesla-logo-png-red-31.png",
+    "jobTitle": "Data Analyst",
+    "companyName": "Tesla",
+    "remoteOrOnsite": "Remote",
+    "location": "San Francisco, CA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$90,000 - $110,000 per year",
+    "jobDescription": "We're looking for a data analyst to help us make data-driven decisions and insights.",
+    "jobResponsibility": "Collect, analyze, and interpret large data sets, and provide insights to key stakeholders.",
+    "educationalRequirements": "Bachelor's degree in Statistics, Mathematics, or a related field.",
+    "experiences": "2+ years of experience in data analysis.",
+    "contactInformation": {
+      "phone": "555-2468",
+      "email": "jobs@dataco.com"
+    }
+  },
+  {
+    "id": 4,
+    "companyLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/2560px-Airbnb_Logo_B%C3%A9lo.svg.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "Airbnb",
+    "remoteOrOnsite": "Onsite",
+    "location": "Chicago, IL",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$60,000 - $80,000 per year",
+    "jobDescription": "We're seeking a talented graphic designer to create stunning designs and visuals for our clients.",
+    "jobResponsibility": "Create and design visual materials for marketing, advertising, and other communication purposes.",
+    "educationalRequirements": "Bachelor's degree in Graphic Design",
+    "experiences": "2+ years of experience in graphic design.",
+    "contactInformation": {
+      "phone": "555-1357",
+      "email": "jobs@designco.com"
+    }
+  },
+  {
+    "id": 5,
+    "companyLogo": "https://w7.pngwing.com/pngs/732/34/png-transparent-logo-amazon-com-brand-flipkart-others-text-orange-logo-thumbnail.png",
+    "jobTitle": "Product Manager",
+    "companyName": "Amazon",
+    "remoteOrOnsite": "Onsite",
+    "location": "Seattle, WA",
+    "fulltimeOrParttime": "Full-time",
+    "salary": "$120,000 - $150,000 per year",
+    "jobDescription": "We're seeking an experienced product manager to help us drive product strategy and execution.",
+    "jobResponsibility": "Develop and execute product roadmaps, and work cross-functionally with engineering, design, and business teams.",
+    "educationalRequirements": "Bachelor's degree in Computer Science, Business, or a related field.",
+    "experiences": "5+ years of experience in product management.",
+    "contactInformation": {
+      "phone": "555-3690",
+      "email": "jobs@techinc.com"
+    }
+  },
+  {
+    "id": 6,
+    "companyLogo": "https://www.freepnglogos.com/uploads/company-logo-png/file-mobile-apps-development-company-logo-25.png",
+    "jobTitle": "Accountant",
+    "companyName": "Code Exceptional",
+    "remoteOrOnsite": "Onsite",
+    "location": "Houston, TX",
+    "fulltimeOrParttime": "Part-time",
+    "salary": "$50,000 - $70,000 per year (pro-rated)",
+    "jobDescription": "We're looking for an experienced accountant to help us manage our finances and accounting processes.",
+    "jobResponsibility": "Prepare and review financial statements, manage accounts payable and receivable, and reconcile accounts.",
+    "educationalRequirements": "Bachelor's degree in Accounting, Finance, or a related field.",
+    "experiences": "3+ years of experience in accounting.",
+    "contactInformation": {
+      "phone": "555-8024",
+      "email": "jobs@financeco.com"
+    }
+  }
+]

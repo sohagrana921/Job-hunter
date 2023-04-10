@@ -1,0 +1,42 @@
+[
+  {
+    "id": "54321",
+    "job_category_logo": "https://img.freepik.com/premium-vector/data-science-logo-template_567288-95.jpg?w=2000",
+    "category_name": "Data Science",
+    "available_jobs": 75,
+    "job_description": "We are looking for a data scientist with expertise in machine learning to join our team and help us build predictive models for our clients.",
+    "location": "Boston, MA",
+    "salary": "$120,000 - $150,000",
+    "apply_url": "https://example.com/careers/data-scientist"
+  },
+  {
+    "id": "98765",
+    "job_category_logo": "https://png.pngtree.com/template/20191014/ourmid/pngtree-trade-market-logo-design-template-finance-logo-with-arrow-image_318280.jpg",
+    "category_name": "Marketing",
+    "available_jobs": 20,
+    "job_description": "We are seeking a marketing specialist to help us develop and execute marketing campaigns for our products and services.",
+    "location": "Los Angeles, CA",
+    "salary": "$60,000 - $80,000",
+    "apply_url": "https://example.com/careers/marketing-specialist"
+  },
+  {
+    "id": "24680",
+    "job_category_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT55xCSgGPokwOaWEEC-Ox_U1-StFHrxT8MMgrP24NF&s",
+    "category_name": "Customer Support",
+    "available_jobs": 50,
+    "job_description": "We are looking for a customer support representative to assist our customers with their inquiries and provide excellent service.",
+    "location": "Dallas, TX",
+    "salary": "$40,000 - $50,000",
+    "apply_url": "https://example.com/careers/customer-support-rep"
+  },
+  {
+    "id": "13579",
+    "job_category_logo": "https://images.ctfassets.net/4zfc07om50my/5gV8GpuNOjYI4xiJjc3LgG/1c3d092f087472428720486d1f1dcd55/Free_workspace__1_.png?w=2000&q=90",
+    "category_name": "Product Management",
+    "available_jobs": 10,
+    "job_description": "We are seeking a product manager to help us define and prioritize product features and drive product development.",
+    "location": "Seattle, WA",
+    "salary": "$120,000 - $150,000",
+    "apply_url": "https://example.com/careers/product-manager"
+  }
+]
