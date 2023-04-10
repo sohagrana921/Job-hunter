@@ -16,7 +16,7 @@ const Catagories = () => {
         Explore thousands of job opportunities with all the information you
         need. Its your future
       </p>
-      <div className="grid md:grid-cols-4 sm:grid-cols-2  mt-8 ">
+      <div className="grid md:grid-cols-4  mt-8 ">
         {jobs.map((job) => (
           <CatagoriesCard key={job.id} job={job}></CatagoriesCard>
         ))}

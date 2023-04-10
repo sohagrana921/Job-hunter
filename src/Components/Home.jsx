@@ -1,5 +1,4 @@
 import React from "react";
-import Catagories from "./Catagories";
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -29,7 +28,7 @@ const Home = () => {
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <NavLink to="/">Statistics</NavLink>
+                <a>Statistics</a>
               </li>
               <li tabIndex={0}>
                 <a className="justify-between">Applied Jobs</a>
@@ -46,7 +45,13 @@ const Home = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a className="font-bold">Statistics</a>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? "text-blue-600 font-bold" : "default"
+                }
+              >
+                Statistics
+              </NavLink>
             </li>
             <li tabIndex={0}>
               <a className="font-bold">Applied Jobs</a>
@@ -62,24 +67,6 @@ const Home = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-between my-12">
-        <div>
-          <h1 className="text-7xl font-bold ">
-            One Step <br /> Closer To Your <br />
-            <span className="text-blue-500">Dream Job</span>
-          </h1>
-          <p className="my-6 text-xl">
-            Explore thousands of job opportunities with all the <br />
-            information you need. Its your future. Come find it. Manage <br />
-            all your job application from start to finish.
-          </p>
-          <button className="btn">Get Started</button>
-        </div>
-        <div className="md:ml-48">
-          <img src="../../public/P3OLGJ1 copy 1.png" alt="" />
-        </div>
-      </div>
-      <Catagories></Catagories>
     </div>
   );
 };

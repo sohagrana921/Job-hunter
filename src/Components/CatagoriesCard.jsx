@@ -4,8 +4,8 @@ const CatagoriesCard = ({ job }) => {
   const { job_category_logo, category_name, available_jobs } = job;
   return (
     <div>
-      <div className="w-64 h-64 border rounded-md bg-slate-100 ps-10 py-10">
-        <div className="w-20 h-20 bg-blue-300 flex justify-center items-center rounded-md">
+      <div className="border rounded-md bg-slate-100 ps-8 py-10 ml-3 ">
+        <div className="w-20 h-20 bg-blue-300 flex justify-center items-center rounded-md sm:text-center">
           <img
             className="w-10 h-10 rounded-md"
             src={job_category_logo}
