@@ -4,7 +4,7 @@ import Catagories from "./Catagories";
 const Banner = () => {
   return (
     <div className="my-container">
-      <div className="md:flex justify-between my-12">
+      <div className="md:flex justify-between mb-12">
         <div>
           <h1 className="text-7xl font-bold ">
             One Step <br /> Closer To Your <br />

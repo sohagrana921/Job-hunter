@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useParams } from "react-router-dom";
 
 const JobDetails = () => {
+  const data = useParams();
+  console.log(data);
   return (
     <div>
       <h1 className="page-title">Job Details</h1>
