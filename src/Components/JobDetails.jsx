@@ -3,8 +3,9 @@ import { useLoaderData } from "react-router-dom";
 
 const JobDetails = () => {
   return (
-    <div className="my-container">
-      <h1>Job Details</h1>
+    <div>
+      <h1 className="page-title">Job Details</h1>
+      <div className="my-container"></div>
     </div>
   );
 };

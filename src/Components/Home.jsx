@@ -46,18 +46,44 @@ const Home = () => {
           <ul className="menu menu-horizontal px-1">
             <li>
               <NavLink
+                to="/"
                 className={({ isActive }) =>
-                  isActive ? "text-blue-600 font-bold" : "default"
+                  isActive ? "text-blue-600 font-bold" : "font-bold"
+                }
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                to="/statistics"
+                className={({ isActive }) =>
+                  isActive ? "text-blue-600 font-bold" : "font-bold"
                 }
               >
                 Statistics
               </NavLink>
             </li>
+
             <li tabIndex={0}>
-              <a className="font-bold">Applied Jobs</a>
+              <NavLink
+                to="/appliedJobs"
+                className={({ isActive }) =>
+                  isActive ? "text-blue-600 font-bold" : "font-bold"
+                }
+              >
+                Applied Jobs
+              </NavLink>
             </li>
             <li>
-              <a className="font-bold">Blog</a>
+              <NavLink
+                to="/blog"
+                className={({ isActive }) =>
+                  isActive ? "text-blue-600 font-bold" : "font-bold"
+                }
+              >
+                Blog
+              </NavLink>
             </li>
           </ul>
         </div>
