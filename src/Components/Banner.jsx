@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="my-container">
       <div className="md:flex justify-between mb-12">
         <div>
-          <h1 className="text-7xl font-bold ">
+          <h1 className="text-6xl font-bold ">
             One Step <br /> Closer To Your <br />
             <span className="text-blue-500">Dream Job</span>
           </h1>

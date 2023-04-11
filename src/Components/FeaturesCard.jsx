@@ -31,7 +31,7 @@ const FeaturesCard = ({ features }) => {
             <CurrencyDollarIcon className="h-6 w-6" /> Salary: {salary}
           </p>
         </div>
-        <Link to="/details">
+        <Link to={`/details/${features.id}`}>
           <button className="btn mt-8">View Details</button>
         </Link>
       </div>
