@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -38,9 +38,16 @@ const Home = () => {
               </li>
             </ul>
           </div>
-          <a className="text-2xl font-extrabold mr-auto text-slate-800">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive
+                ? "text-blue-600 text-2xl font-extrabold mr-auto"
+                : "text-2xl font-extrabold mr-auto text-slate-800"
+            }
+          >
             Job Hunter
-          </a>
+          </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
