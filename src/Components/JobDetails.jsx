@@ -1,4 +1,4 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import {
   MapPinIcon,
   CurrencyDollarIcon,
@@ -7,11 +7,15 @@ import {
   DocumentTextIcon,
   ChatBubbleBottomCenterIcon,
 } from "@heroicons/react/24/solid";
+import { addToDb } from "../utilities/fakebf";
+import { useState } from "react";
 const JobDetails = () => {
+  const [cart, setCart] = useState([]);
   const data = useParams();
   const jobs = useLoaderData();
   const filterData = jobs.find((p) => p.id == data.id);
   const {
+    id,
     jobDescription,
     jobResponsibility,
     educationalRequirements,
@@ -21,10 +25,22 @@ const JobDetails = () => {
     contactInformation,
     location,
   } = filterData;
+  const handleAddToCart = (product) => {
+    let newCart = [];
+    const exists = cart.find((pd) => pd.id === product.id);
+    if (!exists) {
+      newCart = [...cart, product];
+    } else {
+      const remaining = cart.filter((pd) => pd.id !== product.id);
+      newCart = [...remaining, exists];
+    }
+    setCart(newCart);
+    addToDb(product.id);
+  };
   return (
     <div>
       <h1 className="page-title">Job Details</h1>
-      <div className=" flex m-60 gap-10 ">
+      <div className=" flex mx-60 mb-60 mt-20 gap-10 ">
         <div>
           <h3>
             <span className="font-bold">Job Description : </span>
@@ -66,7 +82,12 @@ const JobDetails = () => {
               {location}
             </p>
           </div>
-          <button className="btn w-full mt-3">Apply Now</button>
+          <button
+            onClick={() => handleAddToCart(filterData)}
+            className="btn w-full mt-3"
+          >
+            Apply Now
+          </button>
         </div>
       </div>
     </div>
