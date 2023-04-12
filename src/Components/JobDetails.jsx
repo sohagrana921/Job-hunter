@@ -42,7 +42,7 @@ const JobDetails = () => {
       <div className="flex justify-center">
         <h1 className="page-title">Job Details</h1>
       </div>
-      <div className=" md:flex md:mx-60 md:mb-60 mt-20 gap-10 ">
+      <div className=" md:flex md:mx-40 md:mb-60 mt-20 gap-10 ">
         <div>
           <h3>
             <span className="font-bold">Job Description : </span>

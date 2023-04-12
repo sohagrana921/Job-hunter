@@ -67,7 +67,7 @@ export default function App() {
         <h1 className="page-title">Statistics</h1>
       </div>
       <RadarChart
-        className="mx-auto mb-20"
+        className="ml-96 mb-20"
         cx={300}
         cy={250}
         outerRadius={150}
