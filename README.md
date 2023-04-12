@@ -4,17 +4,17 @@
 Assignment-9 : Job Hunter
 
 
-## Appendix
+## Uses-
 
 * fake data added 
 * useloader used 
 * state used 
 * react route used 
-* local stroage done
+* local stroage used
 * mobile responsive 
-
+* statistics draw
 
 
 
 ## 🔗 Links
-Live site Link:- 
+Live site Link:- https://joyful-toffee-994a56.netlify.app/appliedJobs
