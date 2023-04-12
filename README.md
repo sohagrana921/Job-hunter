@@ -1,7 +1,7 @@
 # b7a9-career-hub-sohagrana921
 # Project Title
 
-assignment 9 - Talente Nexus
+Assignment-9 : Job Hunter
 
 
 ## Appendix
@@ -17,3 +17,4 @@ assignment 9 - Talente Nexus
 
 
 ## 🔗 Links
+Live site Link:- 
