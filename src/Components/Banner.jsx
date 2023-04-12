@@ -17,8 +17,12 @@ const Banner = () => {
           </p>
           <button className="btn">Get Started</button>
         </div>
-        <div className="md:ml-48">
-          <img src="../../public/P3OLGJ1 copy 1.png" alt="" />
+        <div>
+          <img
+            className="h-96 w-80"
+            src="https://img.freepik.com/free-photo/handsome-man-pointing-lateral_1368-5182.jpg?w=2000"
+            alt=""
+          />
         </div>
       </div>
       <Catagories></Catagories>
