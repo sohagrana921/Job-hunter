@@ -79,7 +79,7 @@ export default function App() {
         <PolarAngleAxis dataKey="subject" />
         <PolarRadiusAxis angle={30} domain={[0, 60]} />
         <Radar
-          name="Assignment Marks Sohag Rana"
+          name="Assignment Marks of Sohag Rana"
           dataKey="A"
           stroke="#8884d8"
           fill="#8884d8"
