@@ -17,4 +17,4 @@ Assignment-9 : Job Hunter
 
 
 ## 🔗 Links
-Live site Link:- https://joyful-toffee-994a56.netlify.app/appliedJobs
+Live site Link:- https://joyful-toffee-994a56.netlify.app/
