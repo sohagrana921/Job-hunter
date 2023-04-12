@@ -6,6 +6,7 @@ import {
   Legend,
   PolarAngleAxis,
   PolarRadiusAxis,
+  Tooltip,
 } from "recharts";
 
 const Statistics = [
@@ -62,13 +63,15 @@ const Statistics = [
 export default function App() {
   return (
     <div>
-      <h1 className="page-title">Statistics</h1>
+      <div className="flex justify-center">
+        <h1 className="page-title">Statistics</h1>
+      </div>
       <RadarChart
         className="mx-auto mb-20"
         cx={300}
         cy={250}
         outerRadius={150}
-        width={500}
+        width={800}
         height={500}
         data={Statistics}
       >
@@ -76,13 +79,14 @@ export default function App() {
         <PolarAngleAxis dataKey="subject" />
         <PolarRadiusAxis angle={30} domain={[0, 60]} />
         <Radar
-          name="Sohag Rana"
+          name="Assignment Marks Sohag Rana"
           dataKey="A"
           stroke="#8884d8"
           fill="#8884d8"
           fillOpacity={0.6}
         />
         <Legend />
+        <Tooltip />
       </RadarChart>
     </div>
   );
